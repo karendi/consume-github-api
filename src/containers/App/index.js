@@ -65,7 +65,7 @@ class App extends Component {
 
 App.propTypes = {
     getUser: PropTypes.func.isRequired,
-    userData: PropTypes.array.isRequired,
+    userData: PropTypes.object.isRequired,
     error: PropTypes.any
 };
 
