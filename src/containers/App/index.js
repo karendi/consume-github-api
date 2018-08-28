@@ -19,7 +19,6 @@ class App extends Component {
     };
 
     componentWillReceiveProps(nextProps) {
-        console.log(nextProps);
         nextProps.error === null ?
         this.showCard(nextProps.userData) :
         this.setError();

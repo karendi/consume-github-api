@@ -8,7 +8,6 @@ const INITIALSTATE = {
 const getUserName = (state=INITIALSTATE, action) => {
     switch(action.type) {
         case types.GET_USER_NAME_SUCCESS:
-            console.log("success");
             return {
                 getUserError: null,
                 user: action.payload
